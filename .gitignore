@@ -25,8 +25,8 @@ dist-ssr
 CLAUDE.MD
 
 # Personal data on public
-public/about/*
-public/certificates/*
-public/cv/*
-public/hobbies/*
-public/projects/*
+# public/about/*
+# public/certificates/*
+# public/cv/*
+# public/hobbies/*
+# public/projects/*
