@@ -194,16 +194,13 @@ import { useI18n } from "vue-i18n";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { stats } from "@/data/experience/stats";
+import { getTimelineItems } from "@/data/experience/timeline";
 
 // Icons
 import {
   Calendar,
   CheckCircle,
   ExternalLink,
-  GraduationCap,
-  Award,
-  Code2,
-  BookOpen,
 } from "lucide-vue-next";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -218,87 +215,18 @@ const statsRef = ref(null);
 const ctaRef = ref(null);
 
 // Timeline items data
-const computedTimelineItems = computed(() => [
-  {
-    id: "current",
-    period: `2024 - ${t("experience.stillWorking")}`,
-    icon: Code2,
-    color: "#0ea5e9",
-    status: "active",
-    statusClass:
-      "bg-matrix-100 text-matrix-800 dark:bg-matrix-900/30 dark:text-matrix-400",
-    nodeClass: "bg-primary-500",
-    contentClass: "timeline-content-right",
-    cardClass: "border-primary-200 dark:border-primary-700",
-    highlight: true,
-    technologies: [
-      "Vue.js",
-      "TailwindCSS",
-      "Docker",
-      "Linux",
-      "TrueNAS",
-      "WordPress",
-      "Python",
-      "Network Security",
-      "Autopsy",
-      "TrueNAS",
-      "NextCloud",
-      "Network",
-      "Git",
-    ],
-    achievements: ["infrastructure", "security", "development", "clients"],
-    links: [],
-  },
-  {
-    id: "cyberchallenge",
-    period: "2022",
-    icon: Award,
-    color: "#22c55e",
-    nodeClass: "bg-matrix-500",
-    contentClass: "timeline-content-left",
-    cardClass:
-      "border-matrix-200 dark:border-matrix-700 ring-2 ring-matrix-100 dark:ring-matrix-900/50",
-    highlight: true,
-    technologies: [
-      "Network Security",
-      "Penetration Testing",
-      "Linux",
-      "Wireshark",
-      "Hydra",
-      "Cryptography",
-    ],
-    achievements: ["certification", "ranking", "skills"],
-    links: [
-      {
-        type: "certificate",
-        url: "#",
-        icon: Award,
-      },
-    ],
-  },
-  {
-    id: "university",
-    period: "2017 - 2025",
-    icon: GraduationCap,
-    color: "#f59e0b",
-    nodeClass: "bg-accent-500",
-    contentClass: "timeline-content-right",
-    cardClass: "border-accent-200 dark:border-accent-700",
-    technologies: ["Java", "C++", "SQL", "Algorithms", "Data Structures"],
-    achievements: ["degree", "projects", "grades"],
-  },
-  {
-    id: "learning",
-    period: "2013",
-    icon: BookOpen,
-    color: "#8b5cf6",
-    nodeClass: "bg-purple-500",
-    contentClass: "timeline-content-left",
-    cardClass: "border-purple-200 dark:border-purple-700",
-    technologies: ["C++", "Git", "Linux"],
-    achievements: ["foundation"],
-  },
-]);
+const computedTimelineItems = computed(() => {
+  const items = getTimelineItems();
+  
+  return items.map(item => ({
+    ...item,
+    period: item.period.end === "current" 
+      ? `${item.period.start} - ${t("experience.stillWorking")}`
+      : item.period.start === item.period.end 
+      ? item.period.start
+      : `${item.period.start} - ${item.period.end}`,
+  }));
+});
 
 // Animations
 onMounted(() => {

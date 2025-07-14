@@ -97,10 +97,6 @@
                     v-if="social.external"
                     class="h-4 w-4 opacity-60 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100"
                   />
-                  <ArrowRight
-                    v-else
-                    class="h-4 w-4 opacity-60 transition-all group-hover:translate-x-1 group-hover:opacity-100"
-                  />
                 </div>
               </a>
             </div>
@@ -417,14 +413,14 @@ onMounted(() => {
 }
 
 .social-link-featured {
-  @apply ring-2 ring-primary-500/20 border border-primary-200/50;
-  @apply bg-gradient-to-r from-white to-primary-50/30;
-  @apply shadow-lg shadow-primary-500/10;
+  @apply ring-primary-500/20 border-primary-200/50 border ring-2;
+  @apply to-primary-50/30 bg-gradient-to-r from-white;
+  @apply shadow-primary-500/10 shadow-lg;
   @apply dark:bg-gradient-to-r dark:from-gray-800 dark:to-gray-700;
   @apply dark:ring-primary-400/30 dark:border-primary-700/50;
-  @apply dark:shadow-lg dark:shadow-primary-500/20;
-  @apply hover:shadow-xl hover:shadow-primary-500/15;
-  @apply dark:hover:shadow-xl dark:hover:shadow-primary-500/25;
+  @apply dark:shadow-primary-500/20 dark:shadow-lg;
+  @apply hover:shadow-primary-500/15 hover:shadow-xl;
+  @apply dark:hover:shadow-primary-500/25 dark:hover:shadow-xl;
   @apply hover:ring-primary-500/30 dark:hover:ring-primary-400/50;
 }
 

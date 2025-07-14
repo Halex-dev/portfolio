@@ -45,7 +45,7 @@ export const socialLinks: SocialLink[] = [
     displayText: "halex_",
     color: "#5865f2",
     bgColor: "#5865f215",
-    external: true,
+    external: false,
     featured: true,
     followers: 0,
   },

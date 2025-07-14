@@ -135,8 +135,19 @@
               <p class="certification-date">{{ cert.date }}</p>
             </div>
 
-            <div class="certification-badge">
-              <Shield class="text-matrix-500 h-5 w-5" />
+            <div class="certification-actions">
+              <div class="certification-badge">
+                <Shield class="text-matrix-500 h-5 w-5" />
+              </div>
+              <a
+                v-if="cert.downloadUrl"
+                :href="cert.downloadUrl"
+                download
+                class="download-btn group-hover:opacity-100 opacity-0 transition-opacity duration-200"
+                title="Download Certificate"
+              >
+                <Download class="text-matrix-500 hover:text-matrix-400 h-5 w-5" />
+              </a>
             </div>
           </div>
         </div>
@@ -184,7 +195,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Icons
-import { Shield, Target, BookOpen } from "lucide-vue-next";
+import { Shield, Target, BookOpen, Download } from "lucide-vue-next";
 
 import { skills, categories } from "@/data/skills/skills";
 import certifications from "@/data/skills/certificates";
@@ -466,9 +477,20 @@ onMounted(() => {
   @apply text-xs text-gray-500 dark:text-gray-500;
 }
 
+.certification-actions {
+  @apply flex items-center gap-2;
+}
+
 .certification-badge {
   @apply flex h-8 w-8 items-center justify-center rounded-full;
   @apply bg-matrix-100 dark:bg-matrix-900/30;
+}
+
+.download-btn {
+  @apply flex h-8 w-8 items-center justify-center rounded-full;
+  @apply bg-matrix-100 dark:bg-matrix-900/30;
+  @apply hover:bg-matrix-200 dark:hover:bg-matrix-800/50;
+  @apply transition-all duration-200;
 }
 
 /* Learning Section */

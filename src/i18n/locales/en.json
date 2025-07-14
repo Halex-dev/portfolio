@@ -1,6 +1,6 @@
 {
   "home": {
-    "greeting": "Hi, I'm",
+    "greeting": "Hello, I'm",
     "name": "Alessio Vito D'Angelo",
     "profession": {
       "backend": "Backend Developer",
@@ -8,7 +8,7 @@
       "security": "Security Specialist"
     },
     "tagline": "Turning complex challenges into elegant solutions",
-    "status": "Open to opportunities",
+    "status": "Available for opportunities",
     "stats": {
       "projects": "Projects",
       "certification": "Certification",
@@ -17,9 +17,9 @@
     "cta": {
       "portfolio": "Explore Portfolio",
       "cv": "Download CV",
-      "contact": "Get In Touch"
+      "contact": "Contact Me"
     },
-    "scrollDown": "Scroll to learn more",
+    "scrollDown": "Scroll down to learn more",
     "terminal": {
       "developer": "full-stack developer | cybersecurity enthusiast",
       "available": "available_for_hire=true"
@@ -44,24 +44,24 @@
     "subtitle": "My story and passions",
     "location": "Italy",
     "certification": "CyberChallenge 2022",
-    "motivation": "Fueled by snacks and curiosity",
+    "motivation": "Powered by snacks and curiosity",
     "description": {
       "intro": "Passionate developer focused on backend development, DevOps, and cybersecurity. My technical training combines with a security-first mindset to create robust and secure solutions.",
-      "journey": "My journey started with a passion for programming and evolved through participation in CyberChallenge 2022, where I deepened cybersecurity skills that I now integrate into every project.",
-      "philosophy": "I believe security isn't optional but a responsibility. Every line of code I write considers scalability, maintainability, and data protection."
+      "journey": "My journey began with a passion for programming and evolved through participation in CyberChallenge 2022, where I deepened my cybersecurity skills that I now integrate into every project.",
+      "philosophy": "I believe that security is not optional but a responsibility. Every line of code I write takes into account scalability, maintainability, and data protection."
     },
     "highlights": {
       "education": {
         "title": "Education",
-        "description": "Technical studies focused on programming and cybersecurity, enriched by participation in CyberChallenge."
+        "description": "Technical education path with focus on programming and cybersecurity, enriched by participation in CyberChallenge."
       },
       "passion": {
         "title": "Passions",
-        "description": "Backend development, DevOps automation, and security research. Always exploring new technologies and best practices."
+        "description": "Backend development, DevOps automation, and security research. Always looking for new technologies and best practices."
       },
       "approach": {
         "title": "Approach",
-        "description": "Methodical problem-solving, continuous learning, and collaboration. I believe in clean code and elegant solutions."
+        "description": "Methodical problem-solving, continuous learning, and open source. I believe in clean code and elegant solutions."
       }
     },
     "philosophy": {
@@ -72,24 +72,21 @@
         "continuousLearning": "Continuous learning of new technologies",
         "problemSolving": "Methodical approach to problem-solving"
       }
-    },
-    "cta": {
-      "title": "Let's Work Together",
-      "description": "I'm always interested in new challenges and growth opportunities. Let's talk about how I can contribute to your team.",
-      "contact": "Get In Touch",
-      "projects": "View Projects"
     }
   },
   "skills": {
     "title": "Technical Skills",
-    "subtitle": "Technologies I master",
-    "description": "An overview of my technical skills, organized by specialization area. Each skill reflects years of study, practice, and application in real projects.",
+    "subtitle": "The technologies I master",
+    "description": "An overview of my technical skills, divided by area of specialization. Each skill reflects years of study, practice, and application in real projects.",
     "categories": {
       "all": "All",
       "backend": "Backend",
       "devops": "DevOps",
       "security": "Security",
-      "frontend": "Frontend"
+      "frontend": "Frontend",
+      "software": "Software",
+      "infrastructure": "Infrastructure",
+      "networking": "Networking"
     },
     "certifications": {
       "title": "Certifications",
@@ -99,11 +96,9 @@
       "title": "Learning Path",
       "subtitle": "Always growing, always curious",
       "items": {
-        "kubernetes": "Kubernetes and container orchestration",
+        "kubernetes": "Kubernetes",
         "aws": "Amazon Web Services and cloud computing",
-        "terraform": "Infrastructure as Code with Terraform",
-        "react": "React and advanced frontend development",
-        "golang": "Go programming language"
+        "sal1": "Security analyst level 1"
       }
     }
   },
@@ -111,11 +106,11 @@
     "title": "My Journey",
     "subtitle": "Experience and professional growth",
     "stillWorking": "Present",
-    "description": "A journey through my education, challenges faced, and milestones achieved. Each step has contributed to shaping the skills I bring today.",
-    "achievements": "Achievements",
+    "description": "A journey through my education, challenges faced, and achievements reached. Each milestone has contributed to shaping the skills I bring today.",
+    "achievements": "Achievements Reached",
     "technologies": "Technologies Used",
     "status": {
-      "active": "Active",
+      "active": "Ongoing",
       "completed": "Completed"
     },
     "links": {
@@ -125,13 +120,14 @@
     },
     "items": {
       "current": {
-        "title": "Portfolio & Projects Development",
-        "organization": "Freelance / Personal Projects",
-        "description": "Developing personal projects to consolidate acquired skills and build a professional portfolio. Focus on best practices, clean code, and security.",
+        "title": "IT Consultant - Development and Cybersecurity",
+        "organization": "Arcadia Company S.R.L",
+        "description": "Complete management of enterprise IT infrastructures and development of secure solutions for enterprise clients. Specialization in SAL, performance optimization, and critical infrastructure management.",
         "achievements": {
-          "portfolio": "Creation of professional portfolio with Vue.js and modern design",
-          "learning": "Deep dive into DevOps, containerization, and cloud technologies",
-          "projects": "Development of full-stack web applications with security-first approach"
+          "infrastructure": "Management and configuration of IT infrastructures (TrueNAS, Synology NAS, VPN) and containerized Docker solutions",
+          "security": "Implementation of cybersecurity solutions, digital forensics, OSINT and infrastructure auditing with focus on vulnerabilities and patch management",
+          "development": "Design and optimization of web applications with security-first approach and WordPress platform optimization for enterprise stability",
+          "clients": "Services for high-profile clients: Intesa San Paolo, Fideuram, IP, Bottega Veneta"
         }
       },
       "cyberchallenge": {
@@ -140,28 +136,26 @@
         "description": "National cybersecurity training program for university students. Intensive training on network security, penetration testing, cryptography, and application security.",
         "achievements": {
           "certification": "Official cybersecurity certification",
-          "ranking": "Ranking among top participants at national level",
-          "skills": "Acquisition of advanced skills in ethical hacking and security assessment"
+          "ranking": "Ranking among top participants at regional level",
+          "skills": "Acquired advanced skills in ethical hacking and security assessment"
         }
       },
       "university": {
-        "title": "University Education",
-        "organization": "University / Technical Institute",
+        "title": "Computer Science",
+        "organization": "University of Pisa",
         "description": "Study path focused on computer science, programming, and modern technologies. Deep dive into algorithms, data structures, and programming paradigms.",
         "achievements": {
-          "degree": "Completion of studies with excellent results",
+          "degree": "Completion of study path with excellent results",
           "projects": "Implementation of complex and innovative academic projects",
-          "grades": "Maintaining high GPA and academic recognition"
+          "grades": "Maintained high average and academic recognition"
         }
       },
       "learning": {
         "title": "Beginning of the Journey",
         "organization": "Self-learning",
-        "description": "First steps into the programming world through online courses, tutorials, and personal projects. Building solid foundations for future tech career.",
+        "description": "First steps in the programming world through online courses, tutorials, and personal projects. Building solid foundations for future tech career.",
         "achievements": {
-          "foundation": "Acquisition of programming fundamentals and problem-solving skills",
-          "courses": "Completion of online courses on recognized platforms",
-          "passion": "Discovery of passion for technology and cybersecurity"
+          "foundation": "Acquisition of programming and problem-solving fundamentals"
         }
       }
     },
@@ -170,12 +164,18 @@
       "projects": "Projects Developed",
       "technologies": "Technologies Learned",
       "certifications": "Certifications"
+    },
+    "cta": {
+      "title": "Ready for New Challenges",
+      "description": "My journey has brought me here, but I'm always looking for new opportunities to grow and contribute to innovative projects.",
+      "projects": "View My Projects",
+      "cv": "Download Complete CV"
     }
   },
   "projects": {
     "title": "My Projects",
     "subtitle": "What I've built",
-    "description": "A selection of projects that best represent my technical skills and problem-solving approach. From live projects to concepts in development.",
+    "description": "A selection of projects that best represent my technical skills and approach to problem-solving. From live projects to concepts in development.",
     "featured": "Featured Project",
     "imagePreview": "Project preview",
     "keyFeatures": "Key Features",
@@ -185,17 +185,17 @@
     "otherProjects": "Other Projects",
     "conceptHint": "Concept in development",
     "technologiesUsed": "Technologies Used",
-    "comingSoon": "Project in Progress",
+    "comingSoon": "Project in Development",
     "viewDetails": "View Details",
     "types": {
       "live": "Live",
-      "wip": "In Progress",
+      "wip": "In Development",
       "concept": "Concept"
     },
     "main": {
       "title": "Portfolio Web App",
       "status": "Active",
-      "description": "Professional portfolio built with Vue.js 3 and TailwindCSS 4, featuring modern design, smooth animations, and mobile-first approach. Implements security and performance best practices.",
+      "description": "Professional portfolio built with Vue.js 3 and TailwindCSS 4, featuring modern design, smooth animations, and mobile-first approach. Implements web security and performance best practices.",
       "features": {
         "security": "Implementation of web security best practices",
         "responsive": "Fully responsive and mobile-first design",
@@ -206,7 +206,7 @@
     "items": {
       "secureapi": {
         "title": "Secure API Gateway",
-        "description": "Security-focused API gateway with rate limiting and monitoring. Implements JWT, OAuth2, and advanced logging."
+        "description": "API gateway with focus on security, rate limiting, and monitoring. Implements JWT, OAuth2, and advanced logging."
       },
       "devopsplatform": {
         "title": "DevOps Platform",
@@ -216,9 +216,17 @@
         "title": "Cybersecurity Toolkit",
         "description": "Suite of tools for penetration testing and vulnerability assessment, developed during CyberChallenge."
       },
-      "mobileapp": {
-        "title": "Mobile Security App",
-        "description": "Mobile app for monitoring home network security with real-time alerting capabilities."
+      "nasdesktop": {
+        "title": "NAS Web Platform",
+        "description": "Web-based multi-user platform for NAS management, similar to Nextcloud with focus on web desktop environment. Modular system with integrated apps, advanced file management, and microservices architecture."
+      },
+      "walletwise": {
+        "title": "WalletWise Portfolio",
+        "description": "Personal portfolio for budget and expense management built with Vue.js, Tailwind CSS, and PrimeVue. Integrates Supabase for authentication."
+      },
+      "passtransfer-unipi": {
+        "title": "PassTransfer UniPi",
+        "description": "University system for transfer and management of University of Pisa student passes. Administrative web interface with monitoring dashboard."
       }
     },
     "techCategories": {
@@ -231,66 +239,32 @@
   "contact": {
     "title": "Let's Talk",
     "subtitle": "I'm always interested in new opportunities",
-    "description": "Have an interesting project? A job proposal? Or just want to have a tech chat? I'm here and I always respond!",
-    "quickContact": "Quick Contact",
-    "form": {
-      "title": "Send a Message",
-      "subtitle": "Fill out the form below and I'll get back to you soon",
-      "name": "Name",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "namePlaceholder": "Your name",
-      "emailPlaceholder": "your.email@example.com",
-      "subjectPlaceholder": "Select a topic",
-      "messagePlaceholder": "Tell me everything! What's the project? What kind of collaboration do you have in mind? I'm all ears...",
-      "subjects": {
-        "job": "Job Opportunity",
-        "project": "Project / Collaboration",
-        "collaboration": "Partnership",
-        "other": "Other"
-      },
-      "validation": {
-        "nameRequired": "Name is required (min. 2 characters)",
-        "emailRequired": "Email is required",
-        "emailInvalid": "Please enter a valid email",
-        "messageRequired": "Message is required (min. 10 characters)",
-        "messageTooLong": "Message is too long (max. 500 characters)"
-      },
-      "success": "Message sent successfully! I'll get back to you soon.",
-      "error": "Error sending message. Please try again or contact me directly via email."
-    },
-    "info": {
-      "email": "Email",
-      "linkedin": "LinkedIn",
-      "github": "GitHub"
+    "description": "Have an interesting project? A job proposal? Or just want to have a tech chat? I'm here and always respond!",
+    "personal": {
+      "title": "Personal Information",
+      "email": {
+        "copy": "Copy email",
+        "copied": "Email copied"
+      }
     },
     "availability": {
       "title": "Availability",
       "status": "Currently available for new projects and job opportunities. Always ready for interesting challenges!",
       "response": "Response within 24 hours",
-      "location": "Italy, available for remote work"
+      "description": "If you want to contact me, follow this information:",
+      "schedule": "Mon - Fri, 9:00 AM - 6:00 PM",
+      "preferred": "Discord or Email",
+      "location": "Italy, available for remote"
     },
     "cv": {
       "title": "Curriculum Vitae",
-      "description": "Download my complete CV to get all the details about my education, skills, and experiences.",
+      "description": "Download my complete CV to get all details about education, skills, and experiences.",
       "download": "Download CV",
-      "downloading": "Downloading..."
+      "downloading": "Downloading CV..."
     },
-    "finalCta": {
-      "title": "Let's Start Something Great Together",
-      "description": "Every great project starts with a conversation. I'm excited to hear your ideas and discover how we can collaborate to create something extraordinary.",
-      "stats": {
-        "response": "Response Time",
-        "commitment": "Commitment",
-        "passion": "Passion"
-      }
-    },
-    "footer": {
-      "copyright": "© 2024 Alessio Vito D'Angelo. All rights reserved.",
-      "built": "Built with Vue.js, TailwindCSS and love"
+    "socialLinks": {
+      "title": "Social Links",
+      "subtitle": "Follow me on social media to stay updated"
     }
   }
 }

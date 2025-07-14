@@ -8,6 +8,8 @@ import {
   Code2,
 } from "lucide-vue-next";
 
+import { ProjectType, Project } from "./types";
+
 export const mainProject = false;
 
 export const mainProjectFeatures = ["security", "responsive", "api", "testing"];
@@ -20,23 +22,7 @@ export const mainProjectTech = [
   { name: "Vue.js", color: "#4fc08d", icon: Globe },
 ];
 
-export enum ProjectType {
-  LIVE = "live",
-  WIP = "wip",
-  CONCEPT = "concept",
-}
-
-export interface Project {
-  id: string;
-  type: ProjectType;
-  icon: any;
-  color: string;
-  technologies: string[];
-  liveUrl?: string;
-  githubUrl?: string;
-}
-
-export const otherProjects = [
+export const otherProjects: Project[] = [
   {
     id: "walletwise",
     type: ProjectType.LIVE,

@@ -14,23 +14,7 @@ import {
   HardDrive,
   Cpu,
 } from "lucide-vue-next";
-
-export interface Skill {
-  name: string;
-  category: Category["id"];
-  level: number;
-  color: string;
-  icon: any;
-  description: string;
-  tags: string[];
-  experience: string;
-  delay: number;
-}
-
-export interface Category {
-  id: string;
-  icon: any;
-}
+import { Category, Skill } from "./types";
 
 // Categories
 export const categories: Category[] = [

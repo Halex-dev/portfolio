@@ -5,6 +5,9 @@
       "@/*": ["src/*"]
     },
     "target": "ES5",
-    "lib": ["DOM", "ES2015"]
+    "lib": ["DOM", "ES2015"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
