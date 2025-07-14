@@ -1,0 +1,270 @@
+{
+  "home": {
+    "greeting": "Ciao, sono",
+    "name": "Alessio Vito D'Angelo",
+    "profession": {
+      "backend": "Backend Developer",
+      "devops": "DevOps Engineer",
+      "security": "Security Specialist"
+    },
+    "tagline": "Turning complex challenges into elegant solutions",
+    "status": "Disponibile per opportunità",
+    "stats": {
+      "projects": "Progetti",
+      "certification": "Certificazione",
+      "specializations": "Specializzazioni"
+    },
+    "cta": {
+      "portfolio": "Esplora Portfolio",
+      "cv": "Scarica CV",
+      "contact": "Contattami"
+    },
+    "scrollDown": "Scorri per saperne di più",
+    "terminal": {
+      "developer": "full-stack developer | cybersecurity enthusiast",
+      "available": "available_for_hire=true"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi Sono",
+    "skills": "Competenze",
+    "projects": "Progetti",
+    "experience": "Esperienza",
+    "contact": "Contatti",
+    "language": "Lingua",
+    "theme": "Tema",
+    "darkMode": "Modalità Scura",
+    "lightMode": "Modalità Chiara",
+    "downloadCV": "Scarica CV",
+    "toggleMenu": "Apri/Chiudi Menu"
+  },
+  "about": {
+    "title": "Chi Sono",
+    "subtitle": "La mia storia e passioni",
+    "location": "Italia",
+    "certification": "CyberChallenge 2022",
+    "motivation": "Alimentato da snack e curiosità",
+    "description": {
+      "intro": "Sviluppatore appassionato di backend development, DevOps e cybersecurity. La mia formazione tecnica si combina con una mentalità security-first per creare soluzioni robuste e sicure.",
+      "journey": "Il mio percorso è iniziato con la passione per la programmazione e si è evoluto attraverso la partecipazione al CyberChallenge 2022, dove ho approfondito le competenze di cybersecurity che ora integro in ogni progetto.",
+      "philosophy": "Credo che la sicurezza non sia un optional ma una responsabilità. Ogni linea di codice che scrivo tiene conto di scalabilità, manutenibilità e protezione dei dati."
+    },
+    "highlights": {
+      "education": {
+        "title": "Formazione",
+        "description": "Percorso di studi tecnico con focus su programmazione e cybersecurity, arricchito dalla partecipazione al CyberChallenge."
+      },
+      "passion": {
+        "title": "Passioni",
+        "description": "Backend development, DevOps automation e security research. Sempre alla ricerca di nuove tecnologie e best practices."
+      },
+      "approach": {
+        "title": "Approccio",
+        "description": "Problem-solving metodico, continuous learning e open source. Credo nel codice pulito e nelle soluzioni eleganti."
+      }
+    },
+    "philosophy": {
+      "title": "La Mia Filosofia Tecnica",
+      "principles": {
+        "securityFirst": "Security-first mindset in ogni fase dello sviluppo",
+        "cleanCode": "Codice pulito, leggibile e manutenibile",
+        "continuousLearning": "Apprendimento continuo delle nuove tecnologie",
+        "problemSolving": "Approccio metodico al problem-solving"
+      }
+    }
+  },
+  "skills": {
+    "title": "Competenze Tecniche",
+    "subtitle": "Le tecnologie che padroneggio",
+    "description": "Un overview delle mie competenze tecniche, suddivise per area di specializzazione. Ogni skill riflette anni di studio, pratica e applicazione in progetti reali.",
+    "categories": {
+      "all": "Tutte",
+      "backend": "Backend",
+      "devops": "DevOps",
+      "security": "Security",
+      "frontend": "Frontend",
+      "software": "Software",
+      "infrastructure": "Infrastructure",
+      "networking": "Networking"
+    },
+    "certifications": {
+      "title": "Certificazioni",
+      "subtitle": "Riconoscimenti ufficiali delle mie competenze"
+    },
+    "learning": {
+      "title": "Percorso di Apprendimento",
+      "subtitle": "Sempre in crescita, sempre curioso",
+      "items": {
+        "kubernetes": "Kubernetes",
+        "aws": "Amazon Web Services e cloud computing",
+        "sal1": "Security analyst level 1"
+      }
+    }
+  },
+  "experience": {
+    "title": "Il Mio Percorso",
+    "subtitle": "Esperienza e crescita professionale",
+    "stillWorking": "Presente",
+    "description": "Un viaggio attraverso la mia formazione, le sfide affrontate e i traguardi raggiunti. Ogni tappa ha contribuito a formare le competenze che porto oggi.",
+    "achievements": "Risultati Raggiunti",
+    "technologies": "Tecnologie Utilizzate",
+    "status": {
+      "active": "In Corso",
+      "completed": "Completato"
+    },
+    "links": {
+      "github": "Vedi GitHub",
+      "certificate": "Vedi Certificato",
+      "project": "Vedi Progetto"
+    },
+    "items": {
+      "current": {
+        "title": "Consulente IT - Sviluppo e Cybersecurity",
+        "organization": "Arcadia Company S.R.L",
+        "description": "Gestione completa di infrastrutture IT aziendali e sviluppo di soluzioni web sicure per clienti enterprise. Specializzazione in cybersecurity, ottimizzazione performance e gestione infrastrutture critiche.",
+        "achievements": {
+          "infrastructure": "Gestione e configurazione infrastrutture IT (TrueNAS, Synology NAS, VPN) e soluzioni containerizzate Docker",
+          "security": "Implementazione soluzioni cybersecurity, digital forensics, OSINT e auditing infrastrutture con focus su vulnerabilità e patch management",
+          "development": "Progettazione e ottimizzazione applicazioni web con approccio security-first e ottimizzazione piattaforme WordPress per stabilità enterprise",
+          "clients": "Servizi per clienti di alto profilo: Intesa San Paolo, Fideuram, IP, Bottega Veneta"
+        }
+      },
+      "cyberchallenge": {
+        "title": "CyberChallenge.IT 2022",
+        "organization": "CyberChallenge.IT",
+        "description": "Programma nazionale di formazione in cybersecurity per studenti universitari. Training intensivo su network security, penetration testing, cryptography e sicurezza applicativa.",
+        "achievements": {
+          "certification": "Certificazione ufficiale in cybersecurity",
+          "ranking": "Posizionamento tra i migliori partecipanti a livello regionale",
+          "skills": "Acquisizione competenze avanzate in ethical hacking e security assessment"
+        }
+      },
+      "university": {
+        "title": "Informatica",
+        "organization": "Università di Pisa",
+        "description": "Percorso di studi focalizzato su informatica, programmazione e tecnologie moderne. Approfondimento di algoritmi, strutture dati e paradigmi di programmazione.",
+        "achievements": {
+          "degree": "Completamento del percorso di studi con ottimi risultati",
+          "projects": "Realizzazione di progetti accademici complessi e innovativi",
+          "grades": "Mantenimento di una media alta e riconoscimenti accademici"
+        }
+      },
+      "learning": {
+        "title": "Inizio del Percorso",
+        "organization": "Auto-apprendimento",
+        "description": "I primi passi nel mondo della programmazione attraverso corsi online, tutorial e progetti personali. Costruzione delle basi solide per il futuro percorso tech.",
+        "achievements": {
+          "foundation": "Acquisizione delle basi di programmazione e problem-solving"
+        }
+      }
+    },
+    "stats": {
+      "experience": "Anni di Studio",
+      "projects": "Progetti Sviluppati",
+      "technologies": "Tecnologie Apprese",
+      "certifications": "Certificazioni"
+    },
+    "cta": {
+      "title": "Pronto per Nuove Sfide",
+      "description": "Il mio percorso mi ha portato fin qui, ma sono sempre alla ricerca di nuove opportunità per crescere e contribuire a progetti innovativi.",
+      "projects": "Vedi I Miei Progetti",
+      "cv": "Scarica CV Completo"
+    }
+  },
+  "projects": {
+    "title": "I Miei Progetti",
+    "subtitle": "Cosa ho costruito",
+    "description": "Una selezione dei progetti che meglio rappresentano le mie competenze tecniche e il mio approccio al problem-solving. Dai progetti live ai concept in sviluppo.",
+    "featured": "Progetto in Evidenza",
+    "imagePreview": "Anteprima del progetto",
+    "keyFeatures": "Caratteristiche Principali",
+    "techStack": "Stack Tecnologico",
+    "viewProject": "Vedi Progetto",
+    "viewCode": "Codice Sorgente",
+    "otherProjects": "Altri Progetti",
+    "conceptHint": "Concept in fase di sviluppo",
+    "technologiesUsed": "Tecnologie Utilizzate",
+    "comingSoon": "Progetto in Sviluppo",
+    "viewDetails": "Vedi Dettagli",
+    "types": {
+      "live": "Live",
+      "wip": "In Sviluppo",
+      "concept": "Concept"
+    },
+    "main": {
+      "title": "Portfolio Web App",
+      "status": "Attivo",
+      "description": "Portfolio professionale realizzato con Vue.js 3 e TailwindCSS 4, featuring design moderno, animazioni fluide e approccio mobile-first. Implementa best practices di sicurezza e performance.",
+      "features": {
+        "security": "Implementazione di best practices di sicurezza web",
+        "responsive": "Design completamente responsive e mobile-first",
+        "api": "Architettura API RESTful con autenticazione JWT",
+        "testing": "Test automatizzati e continuous integration"
+      }
+    },
+    "items": {
+      "secureapi": {
+        "title": "Secure API Gateway",
+        "description": "API gateway con focus su sicurezza, rate limiting e monitoring. Implementa JWT, OAuth2 e logging avanzato."
+      },
+      "devopsplatform": {
+        "title": "DevOps Platform",
+        "description": "Piattaforma per automazione CI/CD con Kubernetes, monitoring e gestione infrastructure as code."
+      },
+      "cybertool": {
+        "title": "Cybersecurity Toolkit",
+        "description": "Suite di strumenti per penetration testing e vulnerability assessment, sviluppata durante CyberChallenge."
+      },
+      "nasdesktop": {
+        "title": "NAS Web Platform",
+        "description": "Piattaforma web-based multiutente per la gestione di un NAS, simile a Nextcloud con focus sul desktop enviroment web. Sistema modulare con app integrate, gestione file avanzata e architettura microservizi."
+      },
+      "walletwise": {
+        "title": "WalletWise Portfolio",
+        "description": "Portfolio personale per budget e gestione spese realizzato con Vue.js, Tailwind CSS e PrimeVue. Integra Supabase per l'autenticazione."
+      },
+      "passtransfer-unipi": {
+        "title": "PassTransfer UniPi",
+        "description": "Sistema universitario per il trasferimento e la gestione dei pass studenti dell'Università di Pisa. Interfaccia web amministrativa con dashboard di monitoraggio."
+      }
+    },
+    "techCategories": {
+      "backend": "Backend",
+      "database": "Database",
+      "devops": "DevOps",
+      "frontend": "Frontend"
+    }
+  },
+  "contact": {
+    "title": "Parliamone",
+    "subtitle": "Sono sempre interessato a nuove opportunità",
+    "description": "Hai un progetto interessante? Una proposta di lavoro? O semplicemente vuoi fare una chiacchierata tech? Sono qui e rispondo sempre!",
+    "personal": {
+      "title": "Informazioni Personali",
+      "email": {
+        "copy": "Copia l'email",
+        "copied": "Email copiata"
+      }
+    },
+    "availability": {
+      "title": "Disponibilità",
+      "status": "Attualmente disponibile per nuovi progetti e opportunità lavorative. Sempre pronto per sfide interessanti!",
+      "response": "Risposta entro 24 ore",
+      "description": "Se desideri contattarmi, segui queste informazioni:",
+      "schedule": "Lun - Ven, 9:00 - 18:00",
+      "preferred": "Discord o Email",
+      "location": "Italia, disponibile per remote"
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "description": "Scarica il mio CV completo per avere tutti i dettagli su formazione, competenze ed esperienze.",
+      "download": "Scarica CV",
+      "downloading": "Sto scaricando il CV..."
+    },
+    "socialLinks": {
+      "title": "Link Social",
+      "subtitle": "Segui me sui social per rimanere aggiornato"
+    }
+  }
+}
