@@ -28,12 +28,7 @@
         "Network",
         "Git"
       ],
-      "achievements": [
-        "infrastructure",
-        "security",
-        "development",
-        "clients"
-      ],
+      "achievements": ["infrastructure", "security", "development", "clients"],
       "links": []
     },
     {
@@ -56,15 +51,11 @@
         "Hydra",
         "Cryptography"
       ],
-      "achievements": [
-        "certification",
-        "ranking",
-        "skills"
-      ],
+      "achievements": ["certification", "ranking", "skills"],
       "links": [
         {
           "type": "certificate",
-          "url": "#",
+          "url": "/certificates/cyberchallenge-2022.pdf",
           "icon": "Award"
         }
       ]
@@ -80,18 +71,8 @@
       "nodeClass": "bg-accent-500",
       "contentClass": "timeline-content-right",
       "cardClass": "border-accent-200 dark:border-accent-700",
-      "technologies": [
-        "Java",
-        "C++",
-        "SQL",
-        "Algorithms",
-        "Data Structures"
-      ],
-      "achievements": [
-        "degree",
-        "projects",
-        "grades"
-      ]
+      "technologies": ["Java", "C++", "SQL", "Algorithms", "Data Structures"],
+      "achievements": ["degree", "projects", "grades"]
     },
     {
       "id": "learning",
@@ -104,14 +85,8 @@
       "nodeClass": "bg-purple-500",
       "contentClass": "timeline-content-left",
       "cardClass": "border-purple-200 dark:border-purple-700",
-      "technologies": [
-        "C++",
-        "Git",
-        "Linux"
-      ],
-      "achievements": [
-        "foundation"
-      ]
+      "technologies": ["C++", "Git", "Linux"],
+      "achievements": ["foundation"]
     }
   ]
 }

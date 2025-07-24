@@ -197,11 +197,7 @@ import { stats } from "@/data/experience/stats";
 import { getTimelineItems } from "@/data/experience/timeline";
 
 // Icons
-import {
-  Calendar,
-  CheckCircle,
-  ExternalLink,
-} from "lucide-vue-next";
+import { Calendar, CheckCircle, ExternalLink } from "lucide-vue-next";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -217,14 +213,15 @@ const ctaRef = ref(null);
 // Timeline items data
 const computedTimelineItems = computed(() => {
   const items = getTimelineItems();
-  
-  return items.map(item => ({
+
+  return items.map((item) => ({
     ...item,
-    period: item.period.end === "current" 
-      ? `${item.period.start} - ${t("experience.stillWorking")}`
-      : item.period.start === item.period.end 
-      ? item.period.start
-      : `${item.period.start} - ${item.period.end}`,
+    period:
+      item.period.end === "current"
+        ? `${item.period.start} - ${t("experience.stillWorking")}`
+        : item.period.start === item.period.end
+          ? item.period.start
+          : `${item.period.start} - ${item.period.end}`,
   }));
 });
 

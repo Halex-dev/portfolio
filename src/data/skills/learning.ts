@@ -1,2 +1,2 @@
 // Learning path
-export const learningPath = ["sal1", "kubernetes", "aws"];
+export const learningPath = ["se", "kubernetes", "aws"];
