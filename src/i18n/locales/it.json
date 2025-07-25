@@ -3,9 +3,9 @@
     "greeting": "Ciao, sono",
     "name": "Alessio Vito D'Angelo",
     "profession": {
+      "security": "Security Engineer",
       "backend": "Backend Developer",
-      "devops": "DevOps Engineer",
-      "security": "Security Specialist"
+      "devops": "DevOps Engineer"
     },
     "tagline": "Turning complex challenges into elegant solutions",
     "status": "Disponibile per opportunità",

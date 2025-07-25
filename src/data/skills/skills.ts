@@ -57,7 +57,7 @@ export const skills: Skill[] = [
   {
     name: "Java",
     category: "software",
-    level: 75,
+    level: 50,
     color: "#ed8b00",
     icon: Code2,
     description: "Enterprise applications, Spring framework",
@@ -68,7 +68,7 @@ export const skills: Skill[] = [
   {
     name: "C",
     category: "software",
-    level: 70,
+    level: 50,
     color: "#a8b9cc",
     icon: Code2,
     description: "System programming, embedded systems",
@@ -80,7 +80,7 @@ export const skills: Skill[] = [
   {
     name: "Vue.js",
     category: "frontend",
-    level: 80,
+    level: 70,
     color: "#4fc08d",
     icon: Globe,
     description: "Modern reactive applications",
@@ -91,7 +91,7 @@ export const skills: Skill[] = [
   {
     name: "TailwindCSS",
     category: "frontend",
-    level: 75,
+    level: 70,
     color: "#06b6d4",
     icon: Cpu,
     description: "Utility-first CSS framework",
@@ -114,7 +114,7 @@ export const skills: Skill[] = [
   {
     name: "Git",
     category: "devops",
-    level: 90,
+    level: 80,
     color: "#f05032",
     icon: GitBranch,
     description: "Version control, collaboration",
@@ -125,7 +125,7 @@ export const skills: Skill[] = [
   {
     name: "Linux",
     category: "devops",
-    level: 85,
+    level: 80,
     color: "#fcc624",
     icon: Terminal,
     description: "System administration, shell scripting",
@@ -136,7 +136,7 @@ export const skills: Skill[] = [
   {
     name: "Docker",
     category: "devops",
-    level: 75,
+    level: 80,
     color: "#2496ed",
     icon: Layers,
     description: "Containerization, microservices",
@@ -171,7 +171,7 @@ export const skills: Skill[] = [
   {
     name: "Network Security",
     category: "security",
-    level: 80,
+    level: 75,
     color: "#dc2626",
     icon: Network,
     description: "Network protocols, security analysis",
@@ -183,7 +183,7 @@ export const skills: Skill[] = [
   {
     name: "TrueNAS",
     category: "infrastructure",
-    level: 75,
+    level: 80,
     color: "#0095d5",
     icon: HardDrive,
     description: "Network-attached storage, ZFS management",
@@ -194,7 +194,7 @@ export const skills: Skill[] = [
   {
     name: "WordPress",
     category: "infrastructure",
-    level: 75,
+    level: 80,
     color: "#21759b",
     icon: Globe,
     description: "CMS development, themes, plugins",
