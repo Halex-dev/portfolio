@@ -225,9 +225,8 @@ const scrollRef = ref(null);
 
 // Typing words for profession
 const typingWords = computed(() => [
-  t("home.profession.backend"),
-  t("home.profession.devops"),
   t("home.profession.security"),
+  t("home.profession.SOC"),
 ]);
 
 const downloadCV = () => {
